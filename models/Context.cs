@@ -22,12 +22,10 @@ namespace common
             : base(options)
         {
         }
-        // public virtual DbSet<User> users { get; set; }
-        // public virtual DbSet<AdminInst> admin_insts { get; set; }
-        // public virtual DbSet<Profile> profile { get; set; }
         public virtual DbSet<Admin> admins { get; set; }
 
-        
+        public virtual DbSet<Answer> answers { get; set; }
+        public virtual DbSet<Question> questions { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (useInMemoryDatabase)

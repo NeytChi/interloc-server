@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Serilog;
+using System;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using Serilog;
-using Serilog.Core;
 
 namespace common
 {
