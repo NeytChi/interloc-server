@@ -24,5 +24,6 @@ namespace common
     {
         public int question_id;
         public string question;
+        public string answer;
     }
 }

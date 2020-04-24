@@ -10,7 +10,7 @@ using common;
 
 namespace controllers
 {
-    [Route("/[controller]")]
+    [Route("/[controller]/[action]")]
     [ApiController]
     public class AdminController : ControllerBase
     {
