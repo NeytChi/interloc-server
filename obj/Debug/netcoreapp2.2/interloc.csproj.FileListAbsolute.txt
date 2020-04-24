@@ -1,0 +1,14 @@
+/home/neytchi/project/interloc/bin/Debug/netcoreapp2.2/interloc.deps.json
+/home/neytchi/project/interloc/bin/Debug/netcoreapp2.2/interloc.runtimeconfig.json
+/home/neytchi/project/interloc/bin/Debug/netcoreapp2.2/interloc.runtimeconfig.dev.json
+/home/neytchi/project/interloc/bin/Debug/netcoreapp2.2/interloc.dll
+/home/neytchi/project/interloc/bin/Debug/netcoreapp2.2/interloc.pdb
+/home/neytchi/project/interloc/obj/Debug/netcoreapp2.2/interloc.csprojAssemblyReference.cache
+/home/neytchi/project/interloc/obj/Debug/netcoreapp2.2/interloc.csproj.CoreCompileInputs.cache
+/home/neytchi/project/interloc/obj/Debug/netcoreapp2.2/interloc.RazorAssemblyInfo.cache
+/home/neytchi/project/interloc/obj/Debug/netcoreapp2.2/interloc.RazorAssemblyInfo.cs
+/home/neytchi/project/interloc/obj/Debug/netcoreapp2.2/interloc.AssemblyInfoInputs.cache
+/home/neytchi/project/interloc/obj/Debug/netcoreapp2.2/interloc.AssemblyInfo.cs
+/home/neytchi/project/interloc/obj/Debug/netcoreapp2.2/interloc.RazorTargetAssemblyInfo.cache
+/home/neytchi/project/interloc/obj/Debug/netcoreapp2.2/interloc.dll
+/home/neytchi/project/interloc/obj/Debug/netcoreapp2.2/interloc.pdb
