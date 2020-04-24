@@ -9,6 +9,8 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Core;
 
 namespace common
 {
@@ -90,10 +92,10 @@ namespace common
         {
             Admin admin;
             string message = string.Empty;
-            Admins admins = new Admins(new LoggerConfiguration()
+            AdminModule module = new AdminModule(new LoggerConfiguration()
                 .WriteTo.File("./logs/log", rollingInterval: RollingInterval.Day)
-                .CreateLogger());
-            if ((admin = admins.CreateAdmin(adminEmail, adminFullname, adminPassword, 0, ref message)) != null) 
+                .CreateLogger(), new Context(false));
+            if ((admin = module.CreateAdmin(adminEmail, adminPassword, 0, ref message)) != null) 
                 Console.WriteLine("Admin with email -> '" + adminEmail + "' was created.");
             else
                 Console.WriteLine(message);
