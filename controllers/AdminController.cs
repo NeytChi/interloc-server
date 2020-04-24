@@ -10,19 +10,25 @@ namespace controllers
     [ApiController]
     public class AdminController : ControllerBase
     {
-        [HttpGet]
-        public ActionResult<dynamic> GetQuestions()
+        [HttpPost]
+        public ActionResult<dynamic> AuthToken()
         {
-            return new string[] { "value1", "value2" };
-        }
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
+            return null;
         }
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult<dynamic> CreateQuestion()
         {
+            return null;
+        }
+        [HttpPut]
+        public ActionResult<dynamic> UpdateQuestion()
+        {
+            return null;
+        }
+        [HttpDelete]
+        public ActionResult<dynamic> DeleteQuestion()
+        {
+            return null;
         }
     }
 }
