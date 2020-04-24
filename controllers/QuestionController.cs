@@ -60,6 +60,7 @@ namespace common
             if (!string.IsNullOrEmpty(cache.answer)) {
                 if ((question = context.questions.Where(q => q.question_id == cache.question_id && !q.deleted).FirstOrDefault()) != null) {
                     answer = new Answer() {
+                        question_id = question.question_id,
                         answer = HttpUtility.UrlDecode(cache.answer),
                         created_at = DateTimeOffset.UtcNow,
                         deleted = false
@@ -67,7 +68,7 @@ namespace common
                     context.answers.Add(answer);
                     context.SaveChanges();
                     log.Information("Create new answer, id -> " + answer.answer_id);
-                    return new { success = true, data = new { answer = answer} };
+                    return new { success = true, data = new { answer = ResponseAnswer(answer)} };
                 }
                 else
                     message = "Server can't define question by id.";
@@ -75,7 +76,16 @@ namespace common
             else
                 message = "Answer can't be empty.";
             return Error500(message);
-        }    
+        } 
+        public dynamic ResponseAnswer(Answer answer) 
+        {
+            return new {
+                answer_id = answer.answer_id,
+                answer = answer.answer,
+                question_id = answer.question_id,
+                created_at = answer.created_at
+            };
+        }
         public dynamic Error500(string message)
         {
             if (Response != null)

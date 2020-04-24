@@ -1,0 +1,17 @@
+/home/neytchi/project/interloc/bin/release/netcoreapp2.2/ubuntu.18.04-x64/libhostpolicy.so
+/home/neytchi/project/interloc/bin/release/netcoreapp2.2/ubuntu.18.04-x64/libhostfxr.so
+/home/neytchi/project/interloc/bin/release/netcoreapp2.2/ubuntu.18.04-x64/interloc
+/home/neytchi/project/interloc/bin/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.deps.json
+/home/neytchi/project/interloc/bin/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.runtimeconfig.json
+/home/neytchi/project/interloc/bin/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.runtimeconfig.dev.json
+/home/neytchi/project/interloc/bin/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.dll
+/home/neytchi/project/interloc/bin/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.pdb
+/home/neytchi/project/interloc/obj/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.csprojAssemblyReference.cache
+/home/neytchi/project/interloc/obj/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.csproj.CoreCompileInputs.cache
+/home/neytchi/project/interloc/obj/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.RazorAssemblyInfo.cache
+/home/neytchi/project/interloc/obj/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.RazorAssemblyInfo.cs
+/home/neytchi/project/interloc/obj/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.AssemblyInfoInputs.cache
+/home/neytchi/project/interloc/obj/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.AssemblyInfo.cs
+/home/neytchi/project/interloc/obj/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.RazorTargetAssemblyInfo.cache
+/home/neytchi/project/interloc/obj/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.dll
+/home/neytchi/project/interloc/obj/release/netcoreapp2.2/ubuntu.18.04-x64/interloc.pdb

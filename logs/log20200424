@@ -1,0 +1,19 @@
+2020-04-24 20:52:37.648 +03:00 [INF] Authentication token for admin -> 1
+2020-04-24 20:53:34.105 +03:00 [INF] Authentication token for admin -> 1
+2020-04-24 20:55:14.512 +03:00 [INF] Authentication token for admin -> 1
+2020-04-24 20:55:20.709 +03:00 [INF] Create new question, id -> 1
+2020-04-24 20:56:39.756 +03:00 [WRN] Server can't define question by id. IP -> 127.0.0.1
+2020-04-24 20:57:00.542 +03:00 [INF] Update question, id -> 1
+2020-04-24 20:58:18.264 +03:00 [INF] Delete question, id -> 1
+2020-04-24 20:58:30.642 +03:00 [INF] Create new question, id -> 2
+2020-04-24 20:59:10.331 +03:00 [INF] Create new question, id -> 3
+2020-04-24 20:59:37.414 +03:00 [INF] Get all questions
+2020-04-24 21:00:41.392 +03:00 [INF] Get question by id -> 2
+2020-04-24 21:02:43.960 +03:00 [INF] Create new answer, id -> 2
+2020-04-24 21:02:57.942 +03:00 [INF] Create new answer, id -> 3
+2020-04-24 21:03:28.215 +03:00 [INF] Create new answer, id -> 4
+2020-04-24 21:06:01.649 +03:00 [INF] Create new answer, id -> 5
+2020-04-24 21:06:28.594 +03:00 [INF] Create new answer, id -> 6
+2020-04-24 21:06:29.706 +03:00 [INF] Create new answer, id -> 7
+2020-04-24 21:06:30.968 +03:00 [INF] Create new answer, id -> 8
+2020-04-24 21:06:59.152 +03:00 [INF] Get answers on question, id -> 2

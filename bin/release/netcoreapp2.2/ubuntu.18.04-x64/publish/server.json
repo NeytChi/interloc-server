@@ -1,0 +1,27 @@
+{
+	"ip" : "127.0.0.1",
+	"port_http" : 8000,
+	"port_https" : 8001,
+	"allow_origin" : [
+		"http://socialized.space",
+		"https://socialized.space",
+		"https://socialized.space:8026",
+		"https://socialized.space:8026"
+	],
+	"issuer" : "interloc-server",
+	"audience" : "http://localhost:8000/",
+	"auth_key" : "mysql.connection",
+    "auth_lifetime" : 1440,
+    "certificateSettings": {
+        "fileName": "localhost.pfx",
+        "password": "pass1234"
+    },
+    "database" : {
+        "Server" : "localhost",
+        "Database" : "interloc", 
+        "User" : "root", 
+        "Password" : "root", 
+        "Pooling" : "false",
+        "SslMode" : "none"
+    }
+}
